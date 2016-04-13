@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4D78061BD0D9060048B995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78051BD0D9060048B995 /* main.m */; };
+		3A4D78091BD0D9060048B995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78081BD0D9060048B995 /* AppDelegate.m */; };
+		3A4D780C1BD0D9060048B995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D780B1BD0D9060048B995 /* ViewController.m */; };
+		3A4D780F1BD0D9060048B995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D780D1BD0D9060048B995 /* Main.storyboard */; };
+		3A4D78111BD0D9060048B995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D78101BD0D9060048B995 /* Assets.xcassets */; };
+		3A4D78141BD0D9060048B995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D78121BD0D9060048B995 /* LaunchScreen.storyboard */; };
+		3A4D78211BD0D98F0048B995 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D781F1BD0D98F0048B995 /* Interface.storyboard */; };
+		3A4D78231BD0D98F0048B995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D78221BD0D98F0048B995 /* Assets.xcassets */; };
+		3A4D782A1BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3A4D78291BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A4D78321BD0D98F0048B995 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78311BD0D98F0048B995 /* InterfaceController.m */; };
+		3A4D78351BD0D98F0048B995 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78341BD0D98F0048B995 /* ExtensionDelegate.m */; };
+		3A4D78381BD0D98F0048B995 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78371BD0D98F0048B995 /* NotificationController.m */; };
+		3A4D783A1BD0D98F0048B995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D78391BD0D98F0048B995 /* Assets.xcassets */; };
+		3A4D783E1BD0D98F0048B995 /* 猜数字游戏iWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A4D781D1BD0D98F0048B995 /* 猜数字游戏iWatch.app */; };
+		3A4D78491BD0E05A0048B995 /* TwoInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D78481BD0E05A0048B995 /* TwoInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
+		3A4D784C1BD0E6860048B995 /* TableviewInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D784B1BD0E6860048B995 /* TableviewInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
+		3A4D784F1BD0E8A20048B995 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D784E1BD0E8A20048B995 /* MyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A4D782B1BD0D98F0048B995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A4D77F91BD0D9060048B995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4D78281BD0D98F0048B995;
+			remoteInfo = "猜数字游戏iWatch Extension";
+		};
+		3A4D783C1BD0D98F0048B995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A4D77F91BD0D9060048B995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4D781C1BD0D98F0048B995;
+			remoteInfo = "猜数字游戏iWatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A4D78421BD0D98F0048B995 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3A4D782A1BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D78461BD0D98F0048B995 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3A4D783E1BD0D98F0048B995 /* 猜数字游戏iWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A4D78011BD0D9060048B995 /* 猜数字游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猜数字游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4D78051BD0D9060048B995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A4D78071BD0D9060048B995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A4D78081BD0D9060048B995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A4D780A1BD0D9060048B995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A4D780B1BD0D9060048B995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A4D780E1BD0D9060048B995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A4D78101BD0D9060048B995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4D78131BD0D9060048B995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A4D78151BD0D9060048B995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4D781D1BD0D98F0048B995 /* 猜数字游戏iWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猜数字游戏iWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4D78201BD0D98F0048B995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3A4D78221BD0D98F0048B995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4D78241BD0D98F0048B995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4D78291BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "猜数字游戏iWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4D782F1BD0D98F0048B995 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3A4D78301BD0D98F0048B995 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		3A4D78311BD0D98F0048B995 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		3A4D78331BD0D98F0048B995 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		3A4D78341BD0D98F0048B995 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		3A4D78361BD0D98F0048B995 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		3A4D78371BD0D98F0048B995 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		3A4D78391BD0D98F0048B995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4D783B1BD0D98F0048B995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4D78471BD0E05A0048B995 /* TwoInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoInterfaceController.h; sourceTree = "<group>"; };
+		3A4D78481BD0E05A0048B995 /* TwoInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoInterfaceController.m; sourceTree = "<group>"; };
+		3A4D784A1BD0E6860048B995 /* TableviewInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableviewInterfaceController.h; sourceTree = "<group>"; };
+		3A4D784B1BD0E6860048B995 /* TableviewInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableviewInterfaceController.m; sourceTree = "<group>"; };
+		3A4D784D1BD0E8A20048B995 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		3A4D784E1BD0E8A20048B995 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4D77FE1BD0D9060048B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D78261BD0D98F0048B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4D77F81BD0D9060048B995 = {
+			isa = PBXGroup;
+			children = (
+				3A4D78031BD0D9060048B995 /* 猜数字游戏 */,
+				3A4D781E1BD0D98F0048B995 /* 猜数字游戏iWatch */,
+				3A4D782D1BD0D98F0048B995 /* 猜数字游戏iWatch Extension */,
+				3A4D78021BD0D9060048B995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4D78021BD0D9060048B995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D78011BD0D9060048B995 /* 猜数字游戏.app */,
+				3A4D781D1BD0D98F0048B995 /* 猜数字游戏iWatch.app */,
+				3A4D78291BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4D78031BD0D9060048B995 /* 猜数字游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D78071BD0D9060048B995 /* AppDelegate.h */,
+				3A4D78081BD0D9060048B995 /* AppDelegate.m */,
+				3A4D780A1BD0D9060048B995 /* ViewController.h */,
+				3A4D780B1BD0D9060048B995 /* ViewController.m */,
+				3A4D780D1BD0D9060048B995 /* Main.storyboard */,
+				3A4D78101BD0D9060048B995 /* Assets.xcassets */,
+				3A4D78121BD0D9060048B995 /* LaunchScreen.storyboard */,
+				3A4D78151BD0D9060048B995 /* Info.plist */,
+				3A4D78041BD0D9060048B995 /* Supporting Files */,
+			);
+			path = "猜数字游戏";
+			sourceTree = "<group>";
+		};
+		3A4D78041BD0D9060048B995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D78051BD0D9060048B995 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A4D781E1BD0D98F0048B995 /* 猜数字游戏iWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D781F1BD0D98F0048B995 /* Interface.storyboard */,
+				3A4D78221BD0D98F0048B995 /* Assets.xcassets */,
+				3A4D78241BD0D98F0048B995 /* Info.plist */,
+			);
+			path = "猜数字游戏iWatch";
+			sourceTree = "<group>";
+		};
+		3A4D782D1BD0D98F0048B995 /* 猜数字游戏iWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D78301BD0D98F0048B995 /* InterfaceController.h */,
+				3A4D78311BD0D98F0048B995 /* InterfaceController.m */,
+				3A4D784D1BD0E8A20048B995 /* MyTableViewCell.h */,
+				3A4D784E1BD0E8A20048B995 /* MyTableViewCell.m */,
+				3A4D78471BD0E05A0048B995 /* TwoInterfaceController.h */,
+				3A4D78481BD0E05A0048B995 /* TwoInterfaceController.m */,
+				3A4D784A1BD0E6860048B995 /* TableviewInterfaceController.h */,
+				3A4D784B1BD0E6860048B995 /* TableviewInterfaceController.m */,
+				3A4D78331BD0D98F0048B995 /* ExtensionDelegate.h */,
+				3A4D78341BD0D98F0048B995 /* ExtensionDelegate.m */,
+				3A4D78361BD0D98F0048B995 /* NotificationController.h */,
+				3A4D78371BD0D98F0048B995 /* NotificationController.m */,
+				3A4D78391BD0D98F0048B995 /* Assets.xcassets */,
+				3A4D783B1BD0D98F0048B995 /* Info.plist */,
+				3A4D782E1BD0D98F0048B995 /* Supporting Files */,
+			);
+			path = "猜数字游戏iWatch Extension";
+			sourceTree = "<group>";
+		};
+		3A4D782E1BD0D98F0048B995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D782F1BD0D98F0048B995 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4D78001BD0D9060048B995 /* 猜数字游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4D78181BD0D9060048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏" */;
+			buildPhases = (
+				3A4D77FD1BD0D9060048B995 /* Sources */,
+				3A4D77FE1BD0D9060048B995 /* Frameworks */,
+				3A4D77FF1BD0D9060048B995 /* Resources */,
+				3A4D78461BD0D98F0048B995 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4D783D1BD0D98F0048B995 /* PBXTargetDependency */,
+			);
+			name = "猜数字游戏";
+			productName = "猜数字游戏";
+			productReference = 3A4D78011BD0D9060048B995 /* 猜数字游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A4D781C1BD0D98F0048B995 /* 猜数字游戏iWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4D78431BD0D98F0048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏iWatch" */;
+			buildPhases = (
+				3A4D781B1BD0D98F0048B995 /* Resources */,
+				3A4D78421BD0D98F0048B995 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4D782C1BD0D98F0048B995 /* PBXTargetDependency */,
+			);
+			name = "猜数字游戏iWatch";
+			productName = "猜数字游戏iWatch";
+			productReference = 3A4D781D1BD0D98F0048B995 /* 猜数字游戏iWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3A4D78281BD0D98F0048B995 /* 猜数字游戏iWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4D783F1BD0D98F0048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏iWatch Extension" */;
+			buildPhases = (
+				3A4D78251BD0D98F0048B995 /* Sources */,
+				3A4D78261BD0D98F0048B995 /* Frameworks */,
+				3A4D78271BD0D98F0048B995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "猜数字游戏iWatch Extension";
+			productName = "猜数字游戏iWatch Extension";
+			productReference = 3A4D78291BD0D98F0048B995 /* 猜数字游戏iWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4D77F91BD0D9060048B995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = keyan;
+				TargetAttributes = {
+					3A4D78001BD0D9060048B995 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3A4D781C1BD0D98F0048B995 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3A4D78281BD0D98F0048B995 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3A4D77FC1BD0D9060048B995 /* Build configuration list for PBXProject "猜数字游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4D77F81BD0D9060048B995;
+			productRefGroup = 3A4D78021BD0D9060048B995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4D78001BD0D9060048B995 /* 猜数字游戏 */,
+				3A4D781C1BD0D98F0048B995 /* 猜数字游戏iWatch */,
+				3A4D78281BD0D98F0048B995 /* 猜数字游戏iWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4D77FF1BD0D9060048B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D78141BD0D9060048B995 /* LaunchScreen.storyboard in Resources */,
+				3A4D78111BD0D9060048B995 /* Assets.xcassets in Resources */,
+				3A4D780F1BD0D9060048B995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D781B1BD0D98F0048B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D78231BD0D98F0048B995 /* Assets.xcassets in Resources */,
+				3A4D78211BD0D98F0048B995 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D78271BD0D98F0048B995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D783A1BD0D98F0048B995 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4D77FD1BD0D9060048B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D780C1BD0D9060048B995 /* ViewController.m in Sources */,
+				3A4D78091BD0D9060048B995 /* AppDelegate.m in Sources */,
+				3A4D78061BD0D9060048B995 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D78251BD0D98F0048B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D78351BD0D98F0048B995 /* ExtensionDelegate.m in Sources */,
+				3A4D78321BD0D98F0048B995 /* InterfaceController.m in Sources */,
+				3A4D78491BD0E05A0048B995 /* TwoInterfaceController.m in Sources */,
+				3A4D784F1BD0E8A20048B995 /* MyTableViewCell.m in Sources */,
+				3A4D78381BD0D98F0048B995 /* NotificationController.m in Sources */,
+				3A4D784C1BD0E6860048B995 /* TableviewInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A4D782C1BD0D98F0048B995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4D78281BD0D98F0048B995 /* 猜数字游戏iWatch Extension */;
+			targetProxy = 3A4D782B1BD0D98F0048B995 /* PBXContainerItemProxy */;
+		};
+		3A4D783D1BD0D98F0048B995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4D781C1BD0D98F0048B995 /* 猜数字游戏iWatch */;
+			targetProxy = 3A4D783C1BD0D98F0048B995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A4D780D1BD0D9060048B995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D780E1BD0D9060048B995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A4D78121BD0D9060048B995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D78131BD0D9060048B995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A4D781F1BD0D98F0048B995 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D78201BD0D98F0048B995 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A4D78161BD0D9060048B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A4D78171BD0D9060048B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4D78191BD0D9060048B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "猜数字游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A4D781A1BD0D9060048B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "猜数字游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A4D78401BD0D98F0048B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "猜数字游戏iWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3A4D78411BD0D98F0048B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "猜数字游戏iWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3A4D78441BD0D98F0048B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_____iWatch_Extension";
+				INFOPLIST_FILE = "猜数字游戏iWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3A4D78451BD0D98F0048B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_____iWatch_Extension";
+				INFOPLIST_FILE = "猜数字游戏iWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Letv.-----.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4D77FC1BD0D9060048B995 /* Build configuration list for PBXProject "猜数字游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D78161BD0D9060048B995 /* Debug */,
+				3A4D78171BD0D9060048B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4D78181BD0D9060048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D78191BD0D9060048B995 /* Debug */,
+				3A4D781A1BD0D9060048B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A4D783F1BD0D98F0048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏iWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D78401BD0D98F0048B995 /* Debug */,
+				3A4D78411BD0D98F0048B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A4D78431BD0D98F0048B995 /* Build configuration list for PBXNativeTarget "猜数字游戏iWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D78441BD0D98F0048B995 /* Debug */,
+				3A4D78451BD0D98F0048B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A4D77F91BD0D9060048B995 /* Project object */;
+}

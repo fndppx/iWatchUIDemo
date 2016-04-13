@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54ded562-b976-45f4-8827-2eb948875728++5291",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "54ded562-b976-45f4-8827-2eb948875728++5291" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54ded562-b976-45f4-8827-2eb948875728++5291" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF89AC48-DC42-4C2E-A29F-3896315B924A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54ded562-b976-45f4-8827-2eb948875728++5291" : "docs\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "猜数字游戏",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iWatch相关资料\/猜数字游戏\/猜数字游戏.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.letv.cn\/cztv",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54ded562-b976-45f4-8827-2eb948875728++5291"
+    }
+  ]
+}

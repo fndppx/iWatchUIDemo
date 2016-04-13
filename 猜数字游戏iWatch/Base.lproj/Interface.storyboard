@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="开始猜数字" id="tBw-hW-i8y">
+                            <connections>
+                                <action selector="gotoGuessAction" destination="AgC-eL-Hgc" id="vfc-gN-NCR"/>
+                            </connections>
+                        </button>
+                        <slider width="1" alignment="left" value="1" maximum="5" steps="5" id="nxh-75-4Km">
+                            <connections>
+                                <action selector="updateGuessNum:" destination="AgC-eL-Hgc" id="CCD-pD-rki"/>
+                            </connections>
+                        </slider>
+                        <label width="130.5" height="94.5" alignment="left" verticalAlignment="bottom" text="结果是" textAlignment="center" numberOfLines="0" id="jZA-XG-WgG"/>
+                        <label width="132.5" alignment="left" verticalAlignment="center" text="默认数字是1" textAlignment="left" id="A4u-as-725"/>
+                    </items>
+                    <connections>
+                        <outlet property="guessLabel" destination="A4u-as-725" id="tyW-MA-QX5"/>
+                        <outlet property="guessSlider" destination="nxh-75-4Km" id="q8n-Lz-6Q5"/>
+                        <outlet property="resultLabel" destination="jZA-XG-WgG" id="cM2-LA-478"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="119" y="142.75"/>
+        </scene>
+        <!--TwoInterfaceController-->
+        <scene sceneID="RaO-v4-8un">
+            <objects>
+                <controller identifier="TwoInterfaceController" hidesWhenLoading="NO" id="8nO-Yp-qxh" customClass="TwoInterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="tableview" id="N5c-Xn-TlA">
+                            <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="gotoTableView" destination="8nO-Yp-qxh" id="gax-1g-WsB"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="菜单" id="7tr-fX-VB4"/>
+                        <button width="1" alignment="left" hidden="YES" title="Button" id="2r7-FP-CXS"/>
+                    </items>
+                    <connections>
+                        <outlet property="tableViewButton" destination="N5c-Xn-TlA" id="dtq-5i-Vys"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="325" y="127.5"/>
+        </scene>
+        <!--TableviewInterfaceController-->
+        <scene sceneID="9qk-zK-Ejk">
+            <objects>
+                <controller identifier="TableviewInterfaceController" hidesWhenLoading="NO" id="qtl-qz-OPT" customClass="TableviewInterfaceController">
+                    <items>
+                        <table alignment="left" id="olq-8p-y4V">
+                            <items>
+                                <tableRow id="cig-9a-Xbw" customClass="MyTableViewCell">
+                                    <group key="rootItem" width="1" alignment="left" id="NTQ-8O-WbX">
+                                        <items>
+                                            <label width="103.5" alignment="left" text="Label" id="sqb-5b-6cf"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="sqb-5b-6cf" id="Kr8-82-KJ7"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.98431372549999996" green="0.38823529410000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="interfaceTableView" destination="olq-8p-y4V" id="ufQ-Rz-oOc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="119" y="384"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="isj-DG-a6A">
+            <objects>
+                <controller hidesWhenLoading="NO" id="g5I-6L-Chk"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="384"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="119" y="636"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="636"/>
+        </scene>
+    </scenes>
+</document>
